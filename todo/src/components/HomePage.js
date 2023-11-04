@@ -59,6 +59,7 @@ export default function Home() {
 
 
   return (
+// TODO : Use React-bootstrap instead of bootsratp
     <>
       {editModal ? (
         <EditModal closeModal={closeModal} updateTodo={onUpdate} />
